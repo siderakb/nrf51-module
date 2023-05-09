@@ -11,7 +11,7 @@
       "images": 0.6,
       "pads": 0.6399999856948853,
       "tracks": 1.0,
-      "vias": 1.0,
+      "vias": 0.8100000023841858,
       "zones": 0.6
     },
     "selection_filter": {
@@ -67,7 +67,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "nrf51822_module.kicad_prl",
+    "filename": "nrf51spi-c.kicad_prl",
     "version": 3
   },
   "project": {

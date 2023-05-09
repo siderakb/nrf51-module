@@ -10,96 +10,11 @@
   )
 
   (lib_symbols
-    (symbol "Connector_Generic:Conn_01x07" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 10.16 0)
+    (symbol "Connector:Conn_01x01_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_01x07" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x07_1_1"
-        (rectangle (start -1.27 -7.493) (end 0 -7.747)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 7.747) (end 0 7.493)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 8.89) (end 1.27 -8.89)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 7.62 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -7.62 0) (length 3.81)
-          (name "Pin_7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector_Generic:Conn_01x09" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x09" (at 0 -12.7 0)
+      (property "Value" "Conn_01x01_Socket" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -108,91 +23,34 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (property "ki_keywords" "connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+      (property "ki_description" "Generic connector, single row, 01x01, script generated" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Conn_01x09_1_1"
-        (rectangle (start -1.27 -10.033) (end 0 -10.287)
+      (symbol "Conn_01x01_Socket_1_1"
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy -0.508 0)
+          )
           (stroke (width 0.1524) (type default))
           (fill (type none))
         )
-        (rectangle (start -1.27 -7.493) (end 0 -7.747)
+        (arc (start 0 0.508) (mid -0.5058 0) (end 0 -0.508)
           (stroke (width 0.1524) (type default))
           (fill (type none))
-        )
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 7.747) (end 0 7.493)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 10.287) (end 0 10.033)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 11.43) (end 1.27 -11.43)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 10.16 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 7.62 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -7.62 0) (length 3.81)
-          (name "Pin_8" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -10.16 0) (length 3.81)
-          (name "Pin_9" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1489,6 +1347,31 @@
     )
   )
 
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 219.71 97.79 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 05d38906-5e40-46e1-a903-1b97e879b575)
+    (property "Reference" "J10" (at 220.98 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 220.98 99.695 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 219.71 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 43f71592-6b11-4558-bceb-dde1d5ce6dc0))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J10") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 82.55 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05d7ca91-dae1-497c-bf5d-c4c5d4b6628c)
@@ -1506,9 +1389,34 @@
     )
     (pin "1" (uuid 7115cdc5-e433-4d8c-b4b4-f09f86d734db))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 219.71 87.63 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 08a58d1d-41e6-4de6-a5e2-eafec8c9f776)
+    (property "Reference" "J6" (at 220.98 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 220.98 89.535 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 219.71 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 92c2848c-5eed-4a35-bf94-40d2afe7e258))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -1532,7 +1440,7 @@
     (pin "1" (uuid b1620e7e-f8c7-4329-8f07-ae3bdf13ec02))
     (pin "2" (uuid 008a8a17-999c-4e98-b8c9-2972daa03752))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C11") (unit 1)
         )
@@ -1557,7 +1465,7 @@
     )
     (pin "1" (uuid 8bde442e-d605-4709-82a3-6585b3222baa))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR04") (unit 1)
         )
@@ -1583,9 +1491,59 @@
     (pin "1" (uuid d557b7fa-8d22-4943-8f08-4f65944d931d))
     (pin "2" (uuid 83074add-4cf1-4264-a8ff-8b2a8997c048))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 219.71 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 133e754f-8e7b-4b1e-a5f3-1244218a6b9a)
+    (property "Reference" "J9" (at 220.98 95.25 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 220.98 97.155 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 219.71 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ce2868d6-21e8-4d29-8521-31759e608635))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J9") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 219.71 92.71 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1ad3f73c-2bf6-4c3a-9b28-ab45a28c276f)
+    (property "Reference" "J8" (at 220.98 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 220.98 94.615 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 219.71 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 033b44b7-d820-43ab-abb5-8e0a56a1ae15))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -1608,7 +1566,7 @@
     )
     (pin "1" (uuid 967496d6-a8a1-49f3-852a-d0b06e8aa381))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR010") (unit 1)
         )
@@ -1633,7 +1591,7 @@
     )
     (pin "1" (uuid fcd8e944-0dfb-4d48-9ce1-09cdc2a86b50))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR03") (unit 1)
         )
@@ -1661,9 +1619,34 @@
     (pin "3" (uuid cf9fe444-7b30-48f1-bb30-73d8ade4abc4))
     (pin "4" (uuid 7e34512d-7892-4aa5-a1d6-b8f94d1390af))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "Y1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 219.71 82.55 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 292beed2-4d89-40e3-9053-ca0835cdff31)
+    (property "Reference" "J4" (at 220.98 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 220.98 84.455 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 219.71 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 868c0522-a351-4b07-8e23-407a08ce4abc))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1734,7 +1717,7 @@
     (pin "8" (uuid 7ddb1988-9e64-465c-a6a9-0c87258673e4))
     (pin "9" (uuid 0f3dc876-7dda-427e-9db2-9cedef0c7d34))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "U1") (unit 1)
         )
@@ -1759,7 +1742,7 @@
     )
     (pin "1" (uuid cadc5e28-c883-4273-a875-31e7ea8dd727))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR08") (unit 1)
         )
@@ -1785,7 +1768,7 @@
     (pin "1" (uuid 67ce3c52-928b-4cfa-b89f-f8074f608bfc))
     (pin "2" (uuid a544caf7-7a59-40a2-a267-7d2e58bbe076))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "L1") (unit 1)
         )
@@ -1810,7 +1793,7 @@
     )
     (pin "1" (uuid 8a659e87-d6e9-4d84-a5b3-3a1085d6364d))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR09") (unit 1)
         )
@@ -1836,9 +1819,34 @@
     (pin "1" (uuid a620b3b8-0210-439c-8883-a0b155464b8d))
     (pin "2" (uuid b1c8b4a1-446e-412d-a72b-eab315644cb4))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 232.41 85.09 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3cdcafff-2181-488e-b9fb-47e489f19bf7)
+    (property "Reference" "J11" (at 231.14 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 231.14 86.995 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 232.41 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 232.41 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6fe0fbf1-d940-4046-8b9e-030fba72ceb6))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1862,7 +1870,7 @@
     (pin "1" (uuid 02f7711b-4b71-48f0-bd99-689ca8df6021))
     (pin "2" (uuid 00f97ea4-4c4a-42e5-9b7d-eb71f59aed49))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "R2") (unit 1)
         )
@@ -1888,7 +1896,7 @@
     (pin "1" (uuid 8ba72c4f-7648-40bc-ba30-a2df60cc590d))
     (pin "2" (uuid 78722a9c-d631-4a60-9503-63586ecbb58a))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C2") (unit 1)
         )
@@ -1913,9 +1921,34 @@
     )
     (pin "1" (uuid 76a6075d-69eb-4682-b182-3719efa865d3))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 219.71 80.01 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 570b397b-e5d7-4445-8692-cb1051e4e79c)
+    (property "Reference" "J1" (at 220.98 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 220.98 81.915 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 219.71 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c0bf8bbd-a401-43a5-8d8f-a788a9bc253d))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1939,7 +1972,7 @@
     (pin "1" (uuid fbdb1a38-1fb3-449b-885e-a62bd2d27196))
     (pin "2" (uuid 10433ae1-4241-42de-bc02-d07370ba8e47))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "R1") (unit 1)
         )
@@ -1947,34 +1980,26 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x09") (at 219.71 87.63 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 232.41 92.71 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5ee3239d-05e3-4d45-a595-52aba59326aa)
-    (property "Reference" "J1" (at 218.44 74.93 0)
+    (uuid 62e8dcb7-7cca-4e4b-81be-99fa3fc5d8b9)
+    (property "Reference" "J14" (at 231.14 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x09" (at 222.25 89.535 0)
+    (property "Value" "Conn_01x01_Socket" (at 231.14 94.615 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x09_P1.27mm_Vertical" (at 219.71 87.63 0)
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 232.41 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 219.71 87.63 0)
+    (property "Datasheet" "~" (at 232.41 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e1c0566-903b-41c4-8a44-a9d2b72f638f))
-    (pin "2" (uuid 5127c1f5-0546-4444-a48b-b63f897bad36))
-    (pin "3" (uuid 9e82c5b1-5c83-458c-91e9-507d76a5b0fe))
-    (pin "4" (uuid 4463131f-161b-42df-a0a4-9c8a26414a1b))
-    (pin "5" (uuid 245c8add-e972-4caa-a75f-f147db73c608))
-    (pin "6" (uuid 12224df7-22c2-4f0d-863f-56889d51c670))
-    (pin "7" (uuid 9b3d20ae-fbe4-4f1e-bb91-cac0b8862cc3))
-    (pin "8" (uuid 4ccebefc-1248-42b7-b9fa-b34a8d025c29))
-    (pin "9" (uuid 4d7bc9a0-18b2-459f-abc7-3b1aa821a4db))
+    (pin "1" (uuid 8ac8a02c-eca3-41cc-a4d0-8b65e9476aba))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
-          (reference "J1") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -1998,7 +2023,7 @@
     (pin "1" (uuid efa87648-0393-4bdc-b3bc-37d0c32349e9))
     (pin "2" (uuid 18ad6456-9008-497e-81d3-bd7dc28cf2f5))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C7") (unit 1)
         )
@@ -2024,9 +2049,34 @@
     (pin "1" (uuid c14a9b96-26e8-4bbe-bc88-2ac22cf697d5))
     (pin "2" (uuid 49ebe557-5032-4363-b7fd-90ae2facd8ef))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "L3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 219.71 77.47 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6b51aab4-cae0-475c-876c-c394b9acc4e1)
+    (property "Reference" "J3" (at 220.98 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 220.98 79.375 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 219.71 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 76b11eb6-7596-4b9a-8c83-7e530eb33eb6))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2050,7 +2100,7 @@
     (pin "1" (uuid c10979a6-3e77-49fc-abbb-8c00c15511cb))
     (pin "2" (uuid 231db319-12ae-4bd1-bf77-593dc0e8d6c0))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C9") (unit 1)
         )
@@ -2075,7 +2125,7 @@
     )
     (pin "1" (uuid 29df6fe0-cb73-4db6-beca-a64b0d42395a))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR013") (unit 1)
         )
@@ -2101,7 +2151,7 @@
     (pin "1" (uuid f7c727d1-fe9a-491a-ac3e-7b695236edf3))
     (pin "2" (uuid 8e0ae542-1837-4edc-8595-35bf7f026ecd))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C6") (unit 1)
         )
@@ -2126,7 +2176,7 @@
     )
     (pin "1" (uuid 8fe9d746-fa04-4bbc-b8ad-b1a2bec2f3ab))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR012") (unit 1)
         )
@@ -2152,7 +2202,7 @@
     (pin "1" (uuid 9c583168-50fe-42c5-b1f2-7a6aef61d79e))
     (pin "2" (uuid 6a872034-29b5-425e-8832-fc202a0ed3fa))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C12") (unit 1)
         )
@@ -2177,9 +2227,34 @@
     )
     (pin "1" (uuid 3d48e5ba-9ceb-4d7c-b253-460ec298bacb))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 219.71 90.17 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7c97138d-02d3-4731-913c-4de492aa4338)
+    (property "Reference" "J7" (at 220.98 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 220.98 92.075 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 219.71 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e64242ba-f2a2-416c-bee3-668b87fa7218))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -2202,9 +2277,34 @@
     )
     (pin "1" (uuid 97702911-e806-4e48-8bc3-7e3849688da5))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 219.71 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 82b702cf-1449-4599-bc9c-13ded005aa36)
+    (property "Reference" "J5" (at 220.98 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 220.98 86.995 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 219.71 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 36def932-cf91-4d36-98ef-953093b1905d))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2228,7 +2328,7 @@
     (pin "1" (uuid 47d2fb49-0f65-4d15-b5d0-1b333a6876ec))
     (pin "2" (uuid f0ef0dfc-10cc-43af-9763-02fa50083f3a))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C5") (unit 1)
         )
@@ -2253,7 +2353,7 @@
     )
     (pin "1" (uuid 560fb534-86a5-4f15-8374-727e49822dac))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR07") (unit 1)
         )
@@ -2261,32 +2361,51 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x07") (at 232.41 90.17 0) (mirror y) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 232.41 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9d21f313-77e5-4d7d-9287-24362739b5ea)
-    (property "Reference" "J2" (at 232.41 80.01 0)
-      (effects (font (size 1.27 1.27)))
+    (uuid 88aafd7a-56a0-48ee-b35a-1c6608b6209b)
+    (property "Reference" "J12" (at 231.14 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x07" (at 232.41 100.33 0)
+    (property "Value" "Conn_01x01_Socket" (at 231.14 89.535 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 232.41 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical" (at 232.41 90.17 0)
+    (property "Datasheet" "~" (at 232.41 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 05f733e0-ca2d-48d2-8926-b963e752d40e))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 232.41 90.17 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8e041781-60c8-4321-be0c-e540bda9b1cd)
+    (property "Reference" "J13" (at 231.14 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 231.14 92.075 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 232.41 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 232.41 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0452f316-a7ab-4acd-9d45-b73619f72758))
-    (pin "2" (uuid 23d76af4-a93c-4415-a2d7-23a29897089d))
-    (pin "3" (uuid 9f619db6-a7f8-44b8-a5f4-51e94822c688))
-    (pin "4" (uuid e879fc4b-46fe-4518-8345-c525b254fb60))
-    (pin "5" (uuid 6b7d1bbb-2515-4747-8acf-ae31d1166228))
-    (pin "6" (uuid d183f538-0601-4589-a265-943a2e5ab7e3))
-    (pin "7" (uuid c3f70ee4-6b4f-4dbe-9111-e7de8abc02c5))
+    (pin "1" (uuid b4ea044d-debe-493a-9ae8-aad968e125d7))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
-          (reference "J2") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -2309,7 +2428,7 @@
     )
     (pin "1" (uuid e7362800-85e1-42f9-8a56-6eed25994b03))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR011") (unit 1)
         )
@@ -2335,7 +2454,7 @@
     (pin "1" (uuid a904e3bc-e3e4-4166-8984-7768cdaabb25))
     (pin "2" (uuid 86a4207a-a388-475c-8bf8-ccc766e378c0))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C3") (unit 1)
         )
@@ -2361,7 +2480,7 @@
     (pin "1" (uuid 5f493c29-0fb6-4e1c-91f6-96981cf849bb))
     (pin "2" (uuid c5b670ab-6519-4904-9e4e-c7d3acffb880))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "SB1") (unit 1)
         )
@@ -2386,7 +2505,7 @@
     )
     (pin "1" (uuid 43cd96c3-c185-45d0-beba-4dfb6a5bd4f5))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR01") (unit 1)
         )
@@ -2412,9 +2531,34 @@
     (pin "1" (uuid 42f7cc9b-4689-41f2-a18a-19cad22ea3ed))
     (pin "2" (uuid 971f9192-ef47-4047-84f9-cf5fde8e3763))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "L2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 232.41 95.25 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid dce1ef14-bb9f-4204-9375-b7d2a0901c1d)
+    (property "Reference" "J15" (at 231.14 95.25 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 231.14 97.155 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 232.41 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 232.41 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a17bab28-8e1e-43a4-8ec3-5bb81c2f2e0b))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -2437,7 +2581,7 @@
     )
     (pin "1" (uuid 87f3e2c9-4cd1-4e96-9790-8dd0e9870f8d))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "AE1") (unit 1)
         )
@@ -2463,9 +2607,34 @@
     (pin "1" (uuid 3e508d5b-2128-4473-b993-a4df5721d6be))
     (pin "2" (uuid e035d912-d217-4328-884b-4f85db0b15c7))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 232.41 82.55 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e27c3a76-e803-4ad5-9fd6-adf194710dae)
+    (property "Reference" "J2" (at 231.14 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 231.14 84.455 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 232.41 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 232.41 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 95b0eb2e-3188-4892-b4d4-bc0c70586278))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2489,9 +2658,34 @@
     (pin "1" (uuid a6d6ded3-6601-4c1f-99ea-68459973c443))
     (pin "2" (uuid c68ccd2f-480d-4a71-83bc-99412679b618))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "C10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x01_Socket") (at 232.41 97.79 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e8a8b3f3-dff8-4a0e-8b5f-b70677393f87)
+    (property "Reference" "J16" (at 231.14 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x01_Socket" (at 231.14 99.695 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "nrf51_module:castellated_holes_1.27mm" (at 232.41 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 232.41 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 33ddfa9b-1b31-437f-831b-253c75fd7cb5))
+    (instances
+      (project "nrf51spi-c"
+        (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -2514,7 +2708,7 @@
     )
     (pin "1" (uuid 80a4e498-cef0-40bc-84e1-46267f91f21e))
     (instances
-      (project "nrf51822_module"
+      (project "nrf51spi-c"
         (path "/6af4ae1f-6002-45d7-ada4-74102032161e"
           (reference "#PWR014") (unit 1)
         )
